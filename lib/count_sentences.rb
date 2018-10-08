@@ -11,7 +11,7 @@ class String
   end
 
   def question?
-    
+    if self[self.length - 1] == "?"
   end
 
   def exclamation?
