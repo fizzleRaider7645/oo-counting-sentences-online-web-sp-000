@@ -28,6 +28,6 @@ class String
   end
 
   def count_sentences
-    self.scan(/[^\.\!\?]*[\.\!\?]/).delete_if {|n| n.length < 2}.length
+    self.scan(/[^\.\!\?]*[\.\!\?]/).delete_if {|sen| sen.length < 2}.count
   end
 end
