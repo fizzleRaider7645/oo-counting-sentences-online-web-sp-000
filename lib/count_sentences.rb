@@ -28,6 +28,6 @@ class String
   end
 
   def count_sentences
-    slef.split(" ")
+    self.split(" ")
   end
 end
