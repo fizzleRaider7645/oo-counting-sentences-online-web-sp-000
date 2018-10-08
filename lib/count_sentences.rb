@@ -30,5 +30,6 @@ class String
   def count_sentences
     # words = self.split
     # words.count
+    p self
   end
 end
