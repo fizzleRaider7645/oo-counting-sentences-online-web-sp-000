@@ -28,7 +28,7 @@ class String
   end
 
   def count_sentences
-    p words = self.split(" ")
+    p words = self
     words.count
   end
 end
