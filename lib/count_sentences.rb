@@ -20,6 +20,8 @@ class String
 
   def exclamation?
     if self[self.length - 1] == "!"
+    else
+    end
 
   end
 
