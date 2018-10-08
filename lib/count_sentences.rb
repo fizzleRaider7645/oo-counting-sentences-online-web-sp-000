@@ -28,6 +28,6 @@ class String
   end
 
   def count_sentences
-    p self.scan(/[^\.\!\?]*[\.\!\?]/)
+    self.scan(/[^\.\!\?]*[\.\!\?]/)
   end
 end
