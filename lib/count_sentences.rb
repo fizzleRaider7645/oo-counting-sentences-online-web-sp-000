@@ -12,6 +12,7 @@ class String
 
   def question?
     if self[self.length - 1] == "?"
+      true
   end
 
   def exclamation?
