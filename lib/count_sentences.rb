@@ -14,7 +14,7 @@ class String
     if self[self.length - 1] == "?"
       true
     else
-      
+      false
     end
   end
 
